@@ -8,3 +8,15 @@ body {
 .submit-field {
   width: 25%;
 }
+
+.fa-check-square {
+  color: green;
+}
+
+.fa-times-circle {
+  color: red;
+}
+
+.fa-pencil-alt {
+  color: rgb(247, 185, 26);
+}
