@@ -23,6 +23,7 @@ function completeItem() {
 
   parent.removeChild(item);
   target.insertBefore(item, target.childNodes[0]);
+
 }
 
 function addItemTodo(text) {
