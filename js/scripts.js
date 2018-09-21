@@ -38,14 +38,12 @@ function addItemTodo(text) {
   let remove = document.createElement("button");
   remove.classList.add("remove");
   remove.className = "fas fa-times-circle";
-  // remove.innerHTML = removeSVG;
 
   remove.addEventListener("click", removeItem);
 
   let complete = document.createElement("button");
   complete.classList.add("complete");
   complete.className = "fas fa-check-square";
-  // complete.innerHTML = completeSVG;
 
   complete.addEventListener("click", completeItem);
 
